@@ -1,0 +1,269 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin:0;
+}
+#silueta{
+    width:  110px;
+   padding: 10px;
+   margin: 20px;
+    border-radius: 50%;
+}
+/* header */
+header{display: flex;
+    justify-content: end ;
+    flex-wrap: wrap;
+    font-size: 20px;
+    background-color: #0f55be;
+   
+}
+#inicio{ 
+    background-image:url(TPimagenes/fondo-libros.webp)
+}
+#listU1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.iconimg{
+    width: 50px;
+}
+.listU1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navegation{
+    display: flex;
+    justify-content: end ;
+    flex-wrap: wrap;
+}
+#titulo{
+    padding-top: 250px;
+    font-size: 40px;
+
+}
+#comoloayudamos{
+    padding-bottom: 150px;
+
+}
+li{
+    list-style: none;
+    padding: 10px;
+    
+}
+li:hover{ /* hover{ cuando se  paso el mause cambia de color */
+    background-color: #dcd9d4;
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.50));
+    background-blend-mode: soft-light,screen;
+     color: black;
+     cursor: pointer;
+}
+body{
+    background-image: linear-gradient(to right,#0f55be 0%, #2639e6 100%);
+    color: rgb(3, 3, 10);
+}
+/*   .contenedor{
+    display: flex;  */
+   /*   flex-wrap: wrap; */ /* ajusta las cajas cuando cambia de  tamaño la pag */
+  /*    justify-content: center; 
+    background-image: linear-gradient(to top,
+    #e6e9f0 0%, #eef1f5 100%);
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 50%;  */
+   
+.contenedor{
+    width: 5px;
+    height: 5px;
+  /* centrar vertical y horizontalmente */
+  position: relative;
+  top: 0%;
+  left: 70%;
+  margin: -5px 0 0 -5px;
+}
+#titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+#subtitulo,#comoloayudamos{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nosotros{
+    background-color: rgb(108, 160, 255);
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+
+}
+#nosotros1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+   
+}
+#divsilueta{
+    
+    justify-content: center;
+    display:flex ;
+    flex-wrap: wrap;  
+    display: inline-block;
+    display:block; 
+    
+   /*  justify-content: space-evenly; */
+    
+}
+#siluetapa{
+    background-color: rgb(108, 160, 255);
+    justify-content: space-around;
+     display:flex ;
+     margin-top: 25px;
+/*      flex-wrap: wrap;  */
+}
+
+/* ................servicios que brindamos.................. */
+#divservicio{
+    text-align: center;
+   
+    
+}
+#serviciosQ{
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(164, 211, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+div ul li{
+    background-color: #0f55be;
+   margin: 2px;
+   color: rgb(180, 190, 120);
+ 
+  /*  width: 100%; */
+}
+div ul li:hover{ /* hover{ cuando se  paso el mause cambia de color */
+    background-color: #678f96;
+    background-blend-mode: soft-light,screen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+     color: rgb(157, 233, 70);
+     cursor: pointer;
+}
+
+/* .......contacto....... */
+#solo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 50px;
+    margin-left: 5%;
+    background-color: #2639e6;
+}
+  
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+    width: 78%;
+    margin-top: 200px; 
+}
+  
+.contenedor label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.contenedor input[type="text"],
+.contenedor textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+  /*   width: 20%; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+#btnSub {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+#btnSub:hover {
+    background-color: #45a049;
+}
+
+
+section h3{
+    font-size: 50px; 
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(195, 211, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section p{
+    font-size: 15px; 
+    color: rgb(122, 146, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+  /*............ footer ..............*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 250px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contacto, .acerca-de, .enlaces-rapidos {
+    width: 30%;
+  }
+  
+  .contacto h3, .acerca-de h3, .enlaces-rapidos h3 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .contacto p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .redes-sociales a {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .enlaces-rapidos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .enlaces-rapidos li {
+    margin-bottom: 10px;
+  }
+  
+  .enlaces-rapidos a {
+    color: #fff;
+  }
+
